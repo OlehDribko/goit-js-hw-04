@@ -9,7 +9,7 @@ for(const value of values){
     sumOfValues += value;
 
 }
-return sumOfValues < containerSize;
+return sumOfValues <= containerSize;
 }
 
 
